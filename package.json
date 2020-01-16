@@ -1,0 +1,31 @@
+{
+  "name": "@primeeuler/vnc",
+  "version": "0.0.1",
+  "description": "html vnc client ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeEuler/vnc.git"
+  },
+  "keywords": [
+    "vnc",
+    "rfb",
+    "socket.io",
+    "png"
+  ],
+  "author": "Jeremy Ebert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrimeEuler/vnc/issues"
+  },
+  "homepage": "https://github.com/PrimeEuler/vnc#readme",
+  "dependencies": {
+    "express": "~4.16.4",
+    "rfb2": "^0.2.2",
+    "socket.io": "^1.0.0",
+    "pngjs":"^3.4.0"
+  }
+}
